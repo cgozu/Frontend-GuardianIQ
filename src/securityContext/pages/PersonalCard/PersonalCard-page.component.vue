@@ -15,9 +15,10 @@
 </template>
 
 <script>
-import axios from 'axios';
 import PersonalCard from '/src/securityContext/components/PersonalCard/PersonalCard.component.vue';
 import sidebarComponent from "@/securityContext/components/filter/filter.component.vue";
+import {fetchPersonals} from "@/securityContext/service/personal.js";
+
 export default {
   name: 'App',
   components: {
@@ -30,18 +31,8 @@ export default {
       visible: false
     };
   },
-  methods: {
-    async fetchPersonals() {
-      try {
-        const response = await axios.get('https://my-json-server.typicode.com/rivacortez/personsafe/personalsafety');
-        this.guards = response.data;
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    }
-  },
-  mounted() {
-    this.fetchPersonals();
+  async mounted() {
+    this.guards = await fetchPersonals(); // Usa la función fetchPersonals
   }
 }
 </script>

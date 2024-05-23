@@ -7,7 +7,7 @@
             <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo"/>
             <h2>Filtro de busqueda</h2>
           </div>
-          <div class="overflow-y-auto">
+
             <ul class="list-none p-0 m-0 overflow-hidden">
 
               <li>
@@ -23,15 +23,15 @@
               </li>
 
               <li>
-                <label for="edad">Edad:</label>
-                <div class="flex align-items-center flex-row">
-                  <Checkbox v-model="filters.edad" inputId="hombre" name="sexo" value="hombre" />
-                  <label for="hombre" class="ml-2">Hombre</label>
-                </div>
-                <div class="flex align-items-center flex-row">
-                  <Checkbox v-model="filters.edad" inputId="mujer" name="sexo" value="mujer" />
-                  <label for="mujer" class="ml-2">Mujer</label>
-                </div>
+                <li>
+                  <label>Edad:</label>
+                  <div class="slider-container">
+                    <input type="range" min="18" max="60" v-model="ageRange" class="slider">
+                    <div>Edad seleccionada: {{ ageRange }} años</div>
+                  </div>
+                </li>
+
+
               </li>
               <li>
                 <label for="experiencia">Experiencia:</label>
@@ -47,29 +47,32 @@
               </li>
             </ul>
             <button-group class="flex justify-content-center mt-4">
-              <button @click="closeCallback">Cerrar</button>
-              <button @click="closeCallback">Aplicar</button>
+              <button2 @click="closeCallback">Cerrar</button2>
+              <button2 @click="closeCallback">Aplicar</button2>
             </button-group>
-          </div>
+
         </div>
       </template>
     </Sidebar>
     <Button icon="pi pi-bars" @click="visible = true" />
   </div>
 </template>
+
 <script>
 
 export default {
+
   data() {
     return {
       visible: false,
       filters: {
         nombre: '',
-        sexo: '', // Cambiado de false a una cadena vacía
+        sexo: '',
         edad: null,
         experiencia: '',
-        disponibilidad: ''
-      }
+        disponibilidad: '',
+
+      },ageRange: null
     }
   }
 }
@@ -99,7 +102,7 @@ export default {
   align-items: stretch;
 }
 
-button {
+button2{
   background-color: #F9A825;
   border: none;
   color: white;
@@ -112,7 +115,19 @@ button {
   cursor: pointer;
   width: 100%;
 }
-
+button {
+  background-color: #F9A825;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 1px;
+  cursor: pointer;
+  width: 20%;
+}
 button:hover {
   background-color: #F9A825;
 }

@@ -27,7 +27,6 @@ import Ripple from 'primevue/ripple';
 
 app.directive('ripple', Ripple);
 app.directive('styleclass', StyleClass);
-app.use(PrimeVue, { ripple: true });
 app.use(router);
 app.use(PrimeVue);
 app.use(i18n);
