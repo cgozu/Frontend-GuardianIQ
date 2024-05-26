@@ -12,10 +12,10 @@
           <router-link to="/home" class="route-text" aria-label="Go to home">
             <span class="text-white text-xl"> {{$t('toolbar.home')}}</span>
           </router-link>
-          <router-link to="/hirestaff" class="route-text" aria-label="Go to mental state exams results">
+          <router-link to="/SafetyDevicePage" class="route-text" aria-label="Go to mental state exams results">
             <span class="ml-4 text-white text-xl"> {{$t('toolbar.contratarPersonal')}}</span>
           </router-link>
-          <router-link to="/securityTeams" class="route-text" aria-label="Go to mental state exams results">
+          <router-link to="/PersonalCardPage" class="route-text" aria-label="Go to mental state exams results">
             <span class="ml-4 text-white text-xl"> {{$t('toolbar.EquiposSeguridad')}}</span>
           </router-link>
           <input type="text" placeholder="Buscar" class="search-bar">

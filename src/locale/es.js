@@ -8,7 +8,7 @@ const es = {
     },
     toolbar: {
         home:'Inicio',
-        contratarPersonal:'Contratar Personal',
+        contratarPersonal:'Dispositivos de seguridad',
         ServiciosActivados:'Servicios Activados',
         EquiposSeguridad: 'Equipos de Seguridad',
     },

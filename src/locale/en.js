@@ -9,7 +9,7 @@ const en = {
 
     toolbar: {
         home:'home',
-        contratarPersonal:'hire Staff',
+        contratarPersonal:'Safety Device',
         ServiciosActivados:'Activated Services',
         EquiposSeguridad: 'Security Teams',
     },

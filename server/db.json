@@ -1,0 +1,655 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "tipo": "Camara",
+      "marca": "Hikvision",
+      "modelo": "DS-2CD2385-FD",
+      "imagen": "https://m.media-amazon.com/images/I/51lgGp0p-zL._AC_UF894,1000_QL80_.jpg",
+      "collectionId": 1,
+      "rating": 5,
+      "precio": 100.00,
+      "descripción": ""
+    },
+    {
+      "id": 2,
+      "tipo": "Sensor",
+      "marca": "Ajax",
+      "modelo": "T1",
+      "imagen": "https://cdn.tvc.mx/media/822837/AJAX-MotionProtect-PlusW-Detector-de-movimiento-inal%C3%A1mbrico-Microondas-e-Infrarrojo.-Color-Negro-black-tvc-8.png",
+      "collectionId": 2,
+      "rating": 4.8,
+      "precio": 100.00,
+      "descripción": ""
+    },
+    {
+      "id": 3,
+      "tipo": "Sensor",
+      "marca": "SPC",
+      "modelo": "APERIO 6311B",
+      "imagen": "https://i.ebayimg.com/images/g/njkAAOSwtqtlG4~7/s-l500.jpg",
+      "collectionId": 2,
+      "rating": 4.9,
+      "precio": 100.00,
+      "descripción": ""
+    },
+    {
+      "id": 4,
+      "tipo": "Alarma",
+      "marca": "EKEN",
+      "modelo": "T1",
+      "imagen": "https://m.media-amazon.com/images/I/51K8f+k95JL._AC_UF894,1000_QL80_.jpg",
+      "collectionId": 3,
+      "rating": 4.9,
+      "precio": 100.00,
+      "descripción": ""
+    },
+    {
+      "id": 5,
+      "tipo": "Camara",
+      "marca": "HIKVISION",
+      "modelo": "DS-2CE72DF3T-PIRXOS",
+      "imagen": "https://cdn.adiglobaldistribution.co.uk/pim/300X300/10003/1072061414_1.jpg",
+      "collectionId": 1,
+      "rating": 4.9,
+      "precio": 100.00,
+      "descripción": ""
+    },
+    {
+      "id": 6,
+      "tipo": "Camara",
+      "marca": "Dahua",
+      "modelo": "IPC-HDW5831R-ZE",
+      "imagen": "https://m.media-amazon.com/images/I/61GJ1BsO5YL._AC_UY879_.jpg",
+      "collectionId": 1,
+      "rating": 4.7,
+      "precio": 120.00,
+      "descripción": ""
+    },
+    {
+      "id": 7,
+      "tipo": "Camara",
+      "marca": "Arlo",
+      "modelo": "Pro 3",
+      "imagen": "https://m.media-amazon.com/images/I/81dRaWwnJGL._AC_SL1500_.jpg",
+      "collectionId": 1,
+      "rating": 4.6,
+      "precio": 150.00,
+      "descripción": ""
+    },
+    {
+      "id": 8,
+      "tipo": "Camara",
+      "marca": "Ring",
+      "modelo": "Spotlight Cam",
+      "imagen": "https://m.media-amazon.com/images/I/71+1-D4AdEL._SL1500_.jpg",
+      "collectionId": 1,
+      "rating": 4.5,
+      "precio": 130.00,
+      "descripción": ""
+    },
+    {
+      "id": 9,
+      "tipo": "Camara",
+      "marca": "Nest",
+      "modelo": "Cam IQ Outdoor",
+      "imagen": "https://m.media-amazon.com/images/I/61r9GIdEW1L._SL1500_.jpg",
+      "collectionId": 1,
+      "rating": 4.8,
+      "precio": 200.00,
+      "descripción": ""
+    },
+    {
+      "id": 10,
+      "tipo": "Camara",
+      "marca": "Swann",
+      "modelo": "SWPRO-1080MSB",
+      "imagen": "https://m.media-amazon.com/images/I/71H+Gm5bfbL._SL1500_.jpg",
+      "collectionId": 1,
+      "rating": 4.4,
+      "precio": 90.00,
+      "descripción": ""
+    },
+    {
+      "id": 11,
+      "tipo": "Camara",
+      "marca": "Reolink",
+      "modelo": "Argus 2",
+      "imagen": "https://m.media-amazon.com/images/I/61R5hVa0VwL._AC_SL1500_.jpg",
+      "collectionId": 1,
+      "rating": 4.6,
+      "precio": 110.00,
+      "descripción": ""
+    },
+    {
+      "id": 12,
+      "tipo": "Sensor",
+      "marca": "Honeywell",
+      "modelo": "5800PIR-RES",
+      "imagen": "https://m.media-amazon.com/images/I/31fN5MDk3DL.jpg",
+      "collectionId": 2,
+      "rating": 4.7,
+      "precio": 60.00,
+      "descripción": ""
+    },
+    {
+      "id": 13,
+      "tipo": "Sensor",
+      "marca": "Ecolink",
+      "modelo": "Z-Wave Plus",
+      "imagen": "https://m.media-amazon.com/images/I/41r2E8H6q+L.jpg",
+      "collectionId": 2,
+      "rating": 4.6,
+      "precio": 50.00,
+      "descripción": ""
+    },
+    {
+      "id": 14,
+      "tipo": "Sensor",
+      "marca": "First Alert",
+      "modelo": "ZCOMBO",
+      "imagen": "https://m.media-amazon.com/images/I/61upkw2iBJL._SL1500_.jpg",
+      "collectionId": 2,
+      "rating": 4.8,
+      "precio": 40.00,
+      "descripción": ""
+    },
+    {
+      "id": 15,
+      "tipo": "Sensor",
+      "marca": "Fibaro",
+      "modelo": "FGMS-001",
+      "imagen": "https://m.media-amazon.com/images/I/41qjP5uCg3L.jpg",
+      "collectionId": 2,
+      "rating": 4.7,
+      "precio": 55.00,
+      "descripción": ""
+    },
+    {
+      "id": 16,
+      "tipo": "Sensor",
+      "marca": "Aeotec",
+      "modelo": "Multisensor 6",
+      "imagen": "https://m.media-amazon.com/images/I/61HDabGBucL._SL1500_.jpg",
+      "collectionId": 2,
+      "rating": 4.5,
+      "precio": 70.00,
+      "descripción": ""
+    },
+    {
+      "id": 17,
+      "tipo": "Sensor",
+      "marca": "Samsung SmartThings",
+      "modelo": "Motion Sensor",
+      "imagen": "https://m.media-amazon.com/images/I/41jq6L6yX+L.jpg",
+      "collectionId": 2,
+      "rating": 4.6,
+      "precio": 30.00,
+      "descripción": ""
+    },
+    {
+      "id": 18,
+      "tipo": "Sensor",
+      "marca": "Ring",
+      "modelo": "Alarm Motion Detector",
+      "imagen": "https://m.media-amazon.com/images/I/31Tk7Tt8goL.jpg",
+      "collectionId": 2,
+      "rating": 4.5,
+      "precio": 25.00,
+      "descripción": ""
+    },
+    {
+      "id": 19,
+      "tipo": "Sensor",
+      "marca": "Kangaroo",
+      "modelo": "Motion Sensor",
+      "imagen": "https://m.media-amazon.com/images/I/61M9GysUQaL._SL1500_.jpg",
+      "collectionId": 2,
+      "rating": 4.4,
+      "precio": 20.00,
+      "descripción": ""
+    },
+    {
+      "id": 20,
+      "tipo": "Sensor",
+      "marca": "SimpliSafe",
+      "modelo": "Entry Sensor",
+      "imagen": "https://m.media-amazon.com/images/I/41nqz9jDQUL.jpg",
+      "collectionId": 2,
+      "rating": 4.7,
+      "precio": 15.00,
+      "descripción": ""
+    },
+    {
+      "id": 21,
+      "tipo": "Sensor",
+      "marca": "Wyze",
+      "modelo": "Contact Sensor",
+      "imagen": "https://m.media-amazon.com/images/I/41m3I8hXvlL.jpg",
+      "collectionId": 2,
+      "rating": 4.6,
+      "precio": 10.00,
+      "descripción": ""
+    },
+    {
+      "id": 22,
+      "tipo": "Alarma",
+      "marca": "Yale",
+      "modelo": "Smart Home Alarm",
+      "imagen": "https://m.media-amazon.com/images/I/61ddL4AqLJL._SL1500_.jpg",
+      "collectionId": 3,
+      "rating": 4.6,
+      "precio": 150.00,
+      "descripción": ""
+    },
+    {
+      "id": 23,
+      "tipo": "Alarma",
+      "marca": "Ring",
+      "modelo": "Alarm Kit",
+      "imagen": "https://m.media-amazon.com/images/I/61eRv7J24+L._SL1500_.jpg",
+      "collectionId": 3,
+      "rating": 4.8,
+      "precio": 200.00,
+      "descripción": ""
+    },
+    {
+      "id": 24,
+      "tipo": "Alarma",
+      "marca": "SimpliSafe",
+      "modelo": "SS3-01",
+      "imagen": "https://m.media-amazon.com/images/I/61xqn05ybaL._SL1500_.jpg",
+      "collectionId": 3,
+      "rating": 4.7,
+      "precio": 180.00,
+      "descripción": ""
+    },
+    {
+      "id": 25,
+      "tipo": "Alarma",
+      "marca": "ADT",
+      "modelo": "Command",
+      "imagen": "https://m.media-amazon.com/images/I/41ZOd+03x+L.jpg",
+      "collectionId": 3,
+      "rating": 4.5,
+      "precio": 220.00,
+      "descripción": ""
+    },
+    {
+      "id": 26,
+      "tipo": "Alarma",
+      "marca": "Blue by ADT",
+      "modelo": "Home Security System",
+      "imagen": "https://m.media-amazon.com/images/I/51Vsl0vBvJL._SL1500_.jpg",
+      "collectionId": 3,
+      "rating": 4.6,
+      "precio": 160.00,
+      "descripción": ""
+    },
+    {
+      "id": 27,
+      "tipo": "Alarma",
+      "marca": "Cove",
+      "modelo": "Touch Alarm",
+      "imagen": "https://m.media-amazon.com/images/I/71RtNxlExoL._AC_SL1500_.jpg",
+      "collectionId": 3,
+      "rating": 4.7,
+      "precio": 140.00,
+      "descripción": ""
+    },
+    {
+      "id": 28,
+      "tipo": "Alarma",
+      "marca": "Abode",
+      "modelo": "iota All-In-One",
+      "imagen": "https://m.media-amazon.com/images/I/61J+vvEV+3L._AC_SL1500_.jpg",
+      "collectionId": 3,
+      "rating": 4.6,
+      "precio": 170.00,
+      "descripción": ""
+    },
+    {
+      "id": 29,
+      "tipo": "Alarma",
+      "marca": "Fortress",
+      "modelo": "S03 WiFi",
+      "imagen": "https://m.media-amazon.com/images/I/61gG+03x6UL._SL1000_.jpg",
+      "collectionId": 3,
+      "rating": 4.5,
+      "precio": 130.00,
+      "descripción": ""
+    },
+    {
+      "id": 30,
+      "tipo": "Alarma",
+      "marca": "Viper",
+      "modelo": "5706V",
+      "imagen": "https://m.media-amazon.com/images/I/51WMT+kMJ8L._SL1000_.jpg",
+      "collectionId": 3,
+      "rating": 4.8,
+      "precio": 210.00,
+      "descripción": ""
+    },
+    {
+      "id": 31,
+      "tipo": "Alarma",
+      "marca": "SkylinkNet",
+      "modelo": "SK-250",
+      "imagen": "https://m.media-amazon.com/images/I/41csCBq+jtL.jpg",
+      "collectionId": 3,
+      "rating": 4.4,
+      "precio": 110.00,
+      "descripción": ""
+    },
+    {
+      "id": 32,
+      "tipo": "Otros",
+      "marca": "August",
+      "modelo": "Smart Lock Pro",
+      "imagen": "https://m.media-amazon.com/images/I/41Fk-7f1XPL.jpg",
+      "collectionId": 4,
+      "rating": 4.6,
+      "precio": 150.00,
+      "descripción": ""
+    },
+    {
+      "id": 33,
+      "tipo": "Otros",
+      "marca": "Kwikset",
+      "modelo": "Kevo",
+      "imagen": "https://m.media-amazon.com/images/I/61+DDWQ0wZL._SL1500_.jpg",
+      "collectionId": 4,
+      "rating": 4.5,
+      "precio": 140.00,
+      "descripción": ""
+    },
+    {
+      "id": 34,
+      "tipo": "Otros",
+      "marca": "Schlage",
+      "modelo": "Encode",
+      "imagen": "https://m.media-amazon.com/images/I/61zJcDpgzQL._SL1500_.jpg",
+      "collectionId": 4,
+      "rating": 4.7,
+      "precio": 180.00,
+      "descripción": ""
+    },
+    {
+      "id": 35,
+      "tipo": "Otros",
+      "marca": "Yale",
+      "modelo": "Assure Lock SL",
+      "imagen": "https://m.media-amazon.com/images/I/51Pb6qzSbhL._SL1500_.jpg",
+      "collectionId": 4,
+      "rating": 4.6,
+      "precio": 160.00,
+      "descripción": ""
+    },
+    {
+      "id": 36,
+      "tipo": "Otros",
+      "marca": "Ultraloq",
+      "modelo": "UL3 BT",
+      "imagen": "https://m.media-amazon.com/images/I/51C6+ITwBHL._SL1000_.jpg",
+      "collectionId": 4,
+      "rating": 4.5,
+      "precio": 130.00,
+      "descripción": ""
+    },
+    {
+      "id": 37,
+      "tipo": "Otros",
+      "marca": "Eufy",
+      "modelo": "Smart Lock Touch",
+      "imagen": "https://m.media-amazon.com/images/I/71CzR7yP7DL._SL1500_.jpg",
+      "collectionId": 4,
+      "rating": 4.6,
+      "precio": 140.00,
+      "descripción": ""
+    },
+    {
+      "id": 38,
+      "tipo": "Otros",
+      "marca": "SimpliSafe",
+      "modelo": "Smart Lock",
+      "imagen": "https://m.media-amazon.com/images/I/41csOIlDNGL.jpg",
+      "collectionId": 4,
+      "rating": 4.7,
+      "precio": 170.00,
+      "descripción": ""
+    },
+    {
+      "id": 39,
+      "tipo": "Otros",
+      "marca": "Nest",
+      "modelo": "X Yale Lock",
+      "imagen": "https://m.media-amazon.com/images/I/71FvckTdxPL._SL1500_.jpg",
+      "collectionId": 4,
+      "rating": 4.8,
+      "precio": 200.00,
+      "descripción": ""
+    },
+    {
+      "id": 40,
+      "tipo": "Otros",
+      "marca": "Level",
+      "modelo": "Lock",
+      "imagen": "https://m.media-amazon.com/images/I/61-L4Bd4lyL._SL1500_.jpg",
+      "collectionId": 4,
+      "rating": 4.5,
+      "precio": 180.00,
+      "descripción": ""
+    }
+  ],
+  "SegurityTeams": [
+    {
+      "nombre": "Juan Perez",
+      "distrito": "Miraflores",
+      "edad": 30,
+      "sexo": "Masculino",
+      "experiencia": 5,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://images.unsplash.com/photo-1554579780-381ea7224ddd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "nombre": "Maria Rodriguez",
+      "distrito": "San Isidro",
+      "edad": 25,
+      "sexo": "Femenino",
+      "experiencia": 3 ,
+      "disponibilidad": "Medio tiempo",
+      "contrato": "Temporal",
+      "foto": "https://media.istockphoto.com/id/926718862/es/foto/polic%C3%ADa-y-socio-junto-a-la-patrulla.jpg?s=612x612&w=0&k=20&c=zJiGuWUK-c7iLPrZMZAf4OVZPeZtGWMQ17nmwjBPcfk="
+    },
+    {
+      "nombre": "Carlos Gutierrez",
+      "distrito": "Surco",
+      "edad": 35,
+      "sexo": "Masculino",
+      "experiencia": 15,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://images.unsplash.com/photo-1529478490015-00f1a2f8f5cd?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "nombre": "Luisa Martinez",
+      "distrito": "San Juan de Miraflores",
+      "edad": 28,
+      "sexo": "Femenino",
+      "experiencia": 4,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://www.lanzadigital.com/wp-content/uploads/2022/05/Entrega_Reconocimientos_Seguridad_Privada_CD_11.jpg"
+    },
+    {
+      "nombre": "Pedro Lopez",
+      "distrito": "Chorrillos",
+      "edad": 32,
+      "sexo": "Masculino",
+      "experiencia": 6,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://media.istockphoto.com/id/535483336/es/foto/polic%C3%ADa-en-acci%C3%B3n-con-luz-de-flash.jpg?s=612x612&w=0&k=20&c=0_sebkq3dmlUuU5bdASz3R_QonQMtuw4MT0Y7bKMwGs="
+    },
+    {
+      "nombre": "Ana Ramirez",
+      "distrito": "Barranco",
+      "edad": 27,
+      "sexo": "Femenino",
+      "experiencia": 4 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://static.wixstatic.com/media/24e562_f4781d8a948c4a0c819288df2c12c5af~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/24e562_f4781d8a948c4a0c819288df2c12c5af~mv2.jpg"
+    },
+    {
+      "nombre": "Julia Portugal",
+      "distrito": "Surquillo",
+      "edad": 32,
+      "sexo": "Femenino",
+      "experiencia": 4,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://media.istockphoto.com/id/175192867/es/foto/mujer-agente-de-seguridad.jpg?s=612x612&w=0&k=20&c=TiwidVvHWlGQGYd0z53LsVztPfpEtqu2JFrrWD1ky4A="
+    },
+    {
+      "nombre": "Luis Garcia",
+      "distrito": "San Isidro",
+      "edad": 29,
+      "sexo": "Masculino",
+      "experiencia": 8 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://img.freepik.com/fotos-premium/guardia-seguridad-masculino-usando-walkie-talkie_1016675-789.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1705104000&semt=sph"
+    },
+    {
+      "nombre": "Martha Fernandez",
+      "distrito": "Miraflores",
+      "edad": 31,
+      "sexo": "Femenino",
+      "experiencia":  5,
+      "disponibilidad": "Medio tiempo",
+      "contrato": "Temporal",
+      "foto": "https://elperuano.pe/fotografia/thumbnail/2023/03/09/000239032M.jpg"
+    },
+    {
+      "nombre": "José Martinez",
+      "distrito": "Surco",
+      "edad": 33,
+      "sexo": "Masculino",
+      "experiencia": 10,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://media.gettyimages.com/id/157313264/es/foto/guardia-de-seguridad.jpg?s=612x612&w=0&k=20&c=EscBHLEtooPuDzI5_e7K5T8ejT3r84qtjtFvoahUva8="
+    },
+    {
+      "nombre": "Laura Gonzales",
+      "distrito": "San Borja",
+      "edad": 26,
+      "sexo": "Femenino",
+      "experiencia": 3 ,
+      "disponibilidad": "Medio tiempo",
+      "contrato": "Temporal",
+      "foto": "https://st3.depositphotos.com/1177973/14616/i/450/depositphotos_146166213-stock-photo-beautiful-security-guard-on-white.jpg"
+    },
+    {
+      "nombre": "Carlos Ramirez",
+      "distrito": "Barranco",
+      "edad": 28,
+      "sexo": "Masculino",
+      "experiencia": 6,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://media.gettyimages.com/id/200455002-001/es/foto/man-standing-by-lorry-using-walkie-talkie.jpg?s=612x612&w=0&k=20&c=ZJ3pFQVtQO01Z5WqyxaRd27s28cTR7M5DOtnL_uD0mQ="
+    },
+    {
+      "nombre": "Elena Sanchez",
+      "distrito": "Ate",
+      "edad": 30,
+      "sexo": "Femenino",
+      "experiencia": 7 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://st4.depositphotos.com/16122460/30968/i/450/depositphotos_309681142-stock-photo-female-security-guard-in-uniform.jpg"
+    },
+    {
+      "nombre": "Jorge Fernandez",
+      "distrito": "Los Olivos",
+      "edad": 54,
+      "sexo": "Masculino",
+      "experiencia": 19 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://media.gettyimages.com/id/1263019949/es/foto/guardia-de-seguridad-trabajando-en-una-comunidad-cerrada-y-hablando-en-su-walkie-talkie.jpg?s=612x612&w=0&k=20&c=I07M14YGeNYrSSwehLQzYQD9YFbIs5InNChKLHOgk3o="
+    },
+    {
+      "nombre": "Gabriela Lopez",
+      "distrito": "San Martin de Porres",
+      "edad": 26,
+      "sexo": "Femenino",
+      "experiencia": 4 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://image.made-in-china.com/44f3j00EtmQZizFJupk/2016-Nuevo-dise-o-de-seguridad-baratos-uniformes-para-las-mujeres-de-alta-calidad-uniforme-ceremonial-militar-personalizar-el-uniforme-del-personal-de-guardia.webp"
+    },
+    {
+      "nombre": "Ricardo Torres",
+      "distrito": "San Miguel",
+      "edad": 32,
+      "sexo": "Masculino",
+      "experiencia": 8 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://media.gettyimages.com/id/1263019949/es/foto/guardia-de-seguridad-trabajando-en-una-comunidad-cerrada-y-hablando-en-su-walkie-talkie.jpg?s=612x612&w=0&k=20&c=I07M14YGeNYrSSwehLQzYQD9YFbIs5InNChKLHOgk3o="
+    },
+    {
+      "nombre": "Sofia Ramirez",
+      "distrito": "San Borja",
+      "edad": 29,
+      "sexo": "Femenino",
+      "experiencia": 6 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://image.made-in-china.com/44f3j00EtmQZizFJupk/2016-Nuevo-dise-o-de-seguridad-baratos-uniformes-para-las-mujeres-de-alta-calidad-uniforme-ceremonial-militar-personalizar-el-uniforme-del-personal-de-guardia.webp"
+    },
+    {
+      "nombre": "Javier Rodriguez",
+      "distrito": "San Isidro",
+      "edad": 35,
+      "sexo": "Masculino",
+      "experiencia": 10 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://media.gettyimages.com/id/157313264/es/foto/guardia-de-seguridad.jpg?s=612x612&w=0&k=20&c=EscBHLEtooPuDzI5_e7K5T8ejT3r84qtjtFvoahUva8="
+    },
+    {
+      "nombre": "Ana Fernandez",
+      "distrito": "Miraflores",
+      " edad": 30,
+      "sexo": "Femenino",
+      "experiencia": 5 ,
+      "disponibilidad": "Tiempo completo",
+      "contrato": "Indefinido",
+      "foto": "https://images.unsplash.com/photo-1554579780-381ea7224ddd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "title": "Camaras"
+    },
+    {
+      "id": 2,
+      "title": "Sensores"
+    },
+    {
+      "id": 3,
+      "title": "Alarma"
+    },
+    {
+      "id": 3,
+      "title": "Otros"
+    }
+  ]
+}
