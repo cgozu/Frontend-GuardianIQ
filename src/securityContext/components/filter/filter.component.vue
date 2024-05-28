@@ -9,10 +9,12 @@
           <option value="Femenino">Femenino</option>
         </select>
       </div>
+
       <div class="filter-option">
         <label for="edad">Edad:</label>
         <select v-model="filters.edad" id="edad">
           <option value="">Todos</option>
+
           <option value="20-30">20-30</option>
           <option value="31-40">31-40</option>
           <option value="41-50">41-50</option>
@@ -31,12 +33,14 @@
         </select>
       </div>
 
-      <!--<button @click="applyFilters" class="filter-button">Aplicar Filtros</button>-->
+      <button @click="applyFilters" class="filter-button">Aplicar Filtros</button>
+
     </div>
   </div>
 </template>
 
 <script>
+import '.././../model/personal.entity.js';
 export default {
   data() {
     return {
@@ -44,9 +48,11 @@ export default {
         sexo: '',
         edad: '',
         experiencia: ''
-      }
+      },
+        filteredGuards: []
     };
   },
+
   methods: {
     applyFilters() {
       this.$emit('filter', this.filters);
@@ -93,5 +99,10 @@ export default {
 
 .filter-button:hover {
   background-color: #45a049;
+}
+
+.no-results {
+  color: red;
+  font-weight: bold;
 }
 </style>

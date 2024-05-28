@@ -36,7 +36,7 @@ export default {
           <h2>{{ product.modelo }}</h2>
           <p>{{ product.tipo }}</p>
           <div class="rating-price">
-            <Rating v-model="product.rating" :cancel="false" ></Rating>
+            <Rating v-model="product.rating" :cancel="false" estatic ></Rating>
             <span class="price">${{ product.precio.toFixed(2) }}</span>
           </div>
         </div>

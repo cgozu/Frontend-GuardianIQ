@@ -2,6 +2,7 @@
   <div id="app">
     <h1 class="title">Seguridad presencial</h1>
     <filter-component @filter="applyFilters" />
+
     <div class="cards-container">
       <personal-card
           v-for="guard in filteredGuards"
@@ -9,9 +10,11 @@
           :personal="guard"
       />
     </div>
+    <div v-if="noResultsFound && filtersApplied" class="no-results">
+      No se encontraron resultados. Por favor, ajusta tus filtros e intenta de nuevo.
+    </div>
   </div>
 </template>
-
 <script>
 import PersonalCard from '/src/securityContext/components/PersonalCard/PersonalCard.component.vue';
 import filterComponent from "@/securityContext/components/filter/filter.component.vue";
@@ -23,6 +26,7 @@ export default {
     PersonalCard,
     filterComponent
   },
+
   data() {
     return {
       guards: [],
@@ -30,7 +34,8 @@ export default {
         sexo: '',
         edad: '',
         experiencia: ''
-      }
+      },
+      filtersApplied: false,
     };
   },
   computed: {
@@ -45,7 +50,10 @@ export default {
             (this.filters.experiencia ? guard.experiencia >= parseInt(experienciaRango[0]) && (experienciaRango[1] ? guard.experiencia <= parseInt(experienciaRango[1]) : true) : true)
         );
       });
-    }
+    },
+    noResultsFound() {
+      return this.filteredGuards.length === 0;
+    },
   },
   async mounted() {
     this.guards = await fetchPersonals();
@@ -53,10 +61,12 @@ export default {
   methods: {
     applyFilters(filters) {
       this.filters = filters;
-    }
+      this.filtersApplied = true;
+    },
   }
 }
 </script>
+
 
 <style>
 #app {

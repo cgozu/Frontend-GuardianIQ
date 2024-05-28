@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <toolbarComponent />
+
     <div class="card">
       <div class="card-image" :style="{ backgroundImage: 'url(' + currentImage + ')' }">
         <div class="card-overlay">
@@ -50,7 +50,7 @@ export default {
       this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
     },
     shopNow() {
-      // aqui se colocara la redirecciòn para comprar los dispositivos
+      this.$router.push('/SafetyDevicePage');
     }
   },
   mounted() {
