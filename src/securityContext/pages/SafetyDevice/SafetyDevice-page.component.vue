@@ -9,6 +9,7 @@
           :key="device.id"
           :device="device"
           @add-to-cart="addToCart"
+          @total="total"
       />
     </div>
 
@@ -16,7 +17,7 @@
       <h2>Carrito de compras</h2>
       <ul>
         <li v-for="(item, index) in cart" :key="index">
-          {{ item.nombre }} - {{ item.precio }}€
+          {{ item.nombre }} S/. {{ item.precio }}
         </li>
       </ul>
     </div>
@@ -43,6 +44,9 @@ export default {
   methods: {
     addToCart(device) {
       this.cart.push(device);
+    },
+    total(device){
+      this.cart.reduce((acc, item) => acc + item.precio, 0);
     }
   },
   async mounted() {
