@@ -6,6 +6,7 @@
     <p class="device-description">{{ device.descripción }}</p>
 
     <button class="device-button" @click="comprar">Comprar</button>
+    <button @click="addToCart(device)">Agregar al carrito</button>
   </div>
 </template>
 <script>
@@ -16,7 +17,10 @@ export default {
   methods: {
     comprar() {
       alert(`Comprar ${this.device.nombre}`);
-    }
+    },
+    addToCart(device) {
+      this.$emit('add-to-cart', device);
+    },
   }
 }
 </script>
