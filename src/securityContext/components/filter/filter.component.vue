@@ -30,7 +30,8 @@
           <option value="10+">Más de 10 años</option>
         </select>
       </div>
-      <button @click="applyFilters" class="filter-button">Aplicar Filtros</button>
+
+      <!--<button @click="applyFilters" class="filter-button">Aplicar Filtros</button>-->
     </div>
   </div>
 </template>

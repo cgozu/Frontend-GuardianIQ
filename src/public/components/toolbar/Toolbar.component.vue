@@ -1,85 +1,85 @@
-<script>
-import { mapState } from "vuex";
+<template>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#" @click="navigateToHome">
+        <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" :class="{ active: $route.path === '/home' }">
+            <a class="nav-link" href="#" @click="navigateToHome">Inicio</a>
+          </li>
+          <li class="nav-item" :class="{ active: $route.path === '/personalpage' }">
+            <a class="nav-link" href="#" @click="navigateToPersonalCard">Tarjeta Personal</a>
+          </li>
+          <li class="nav-item" :class="{ active: $route.path === '/safetydevice' }">
+            <a class="nav-link" href="#" @click="navigateToSafetyDevice">Dispositivo de Seguridad</a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" @click="navigateToLogin">Login</button>
+          <button class="btn btn-outline-success my-2 my-sm-0 ml-2" type="submit">Get Started</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</template>
 
+<script>
 export default {
-  name: "toolbar",
-  computed: {
-    ...mapState(['user'])
-  },
   methods: {
-    handleToggle() {
-      this.$emit('toggleNav');
-    },
     navigateToHome() {
       this.$router.push('/home');
     },
     navigateToPersonalCard() {
-      this.$router.push('/personalpage');
+      this.$router.push('/PersonalCardPage');
     },
     navigateToSafetyDevice() {
-      this.$router.push('/safetydevice');
+      this.$router.push('/SafetyDevicePage');
     },
     navigateToLogin() {
-      this.$store.commit('removeUser');
       this.$router.push('/login');
     }
   }
 }
 </script>
-
-<template>
-  <pv-toolbar class="header h-7rem px-4 w-full">
-
-    <template #start>
-      <div class=" flex flex-row align-items-center gap-4">
-        <i class="pi pi-bars" @click="handleToggle" style="color: slateblue; font-size: 1.5rem; cursor: pointer"></i>
-        <div class="flex flex-row align-items-center gap-3">
-          <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo"/>
-          <div class="title-container flex flex-column justify-content-center line-height-2">
-            <p class="title font-semibold " style="letter-spacing: 1px;">GuardianIQ</p>
-            <span class="text-sm" style="letter-spacing: .8px;">{{ user.role }}</span>
-          </div>
-        </div>
-      </div>
-    </template>
-    <template #end>
-      <div class="flex flex-row gap-3">
-        <div @click="navigateToLogin()" class="inline-flex gap-3 cursor-pointer align-items-center">
-          <i class="pi pi-sign-out text-gray-700" style="font-size: 1.5rem;"></i>
-          <p class="font-medium text-gray-700" style="margin-bottom: 2px">Log out</p>
-        </div>
-      </div>
-    </template>
-  </pv-toolbar>
-</template>
-
 <style scoped>
-
-.header {
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-  position: sticky;
-  top: 0;
-  z-index: 100;
+.navbar {
+  background-color: #11315C;
 }
 
-.title-container {
-  margin-top: 2px;
+.navbar-brand {
+  color: #F9A825;
 }
 
-.title {
-  letter-spacing: 1px;
-  font-size: 1rem;
+.navbar-nav {
+  color: #F9A825;
 }
 
-.pi-bars {
-  display: none;
+.nav-item {
+  color: #F9A825;
 }
 
-@media (max-width: 1024px) {
-
-  .pi-bars {
-    display: block;
-  }
+.nav-item:hover {
+  color: #F9A825;
+  cursor: pointer;
 }
 
+.form-inline {
+  color: #F9A825;
+}
+
+.btn {
+  background-color: #F9A825;
+  color: #11315C;
+}
+
+.btn:hover {
+  background-color: #F9A825;
+  color: #11315C;
+  cursor: pointer;
+}
 </style>

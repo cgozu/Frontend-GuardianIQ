@@ -1,5 +1,7 @@
 <template>
+
   <div>
+    <toolbarComponent />
     <div class="card">
       <div class="card-image" :style="{ backgroundImage: 'url(' + currentImage + ')' }">
         <div class="card-overlay">
@@ -18,9 +20,11 @@
 
 <script>
 import footerComponent from "@/public/components/footer/footer.component.vue";
+import toolbarComponent from "@/public/components/toolbar/Toolbar.component.vue";
 export default {
   components: {
-    footerComponent
+    footerComponent,
+    toolbarComponent
   },
   name: 'Home',
   data() {
