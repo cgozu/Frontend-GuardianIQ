@@ -1,7 +1,7 @@
 <script>
 
 import homePageComponent from "@/public/pages/home-page.component.vue";
-import personalCardPageComponent from "@/securityContext/pages/PersonalCard/PersonalCard-page.component.vue";
+import personalCardPageComponent from "@/securityContext/pages/PersonalSafety/PersonalCard-page.component.vue";
 import safetyDevicePageComponent from "@/securityContext/pages/SafetyDevice/SafetyDevice-page.component.vue";
 import {mapState} from "vuex";
 

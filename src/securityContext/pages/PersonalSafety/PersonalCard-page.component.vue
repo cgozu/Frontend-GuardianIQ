@@ -16,9 +16,9 @@
   </div>
 </template>
 <script>
-import PersonalCard from '/src/securityContext/components/PersonalCard/PersonalCard.component.vue';
+import PersonalCard from '/src/securityContext/components/PersonalSafetyCard/PersonalCard.component.vue';
 import filterComponent from "@/securityContext/components/filter/filter.component.vue";
-import { fetchPersonals } from "@/securityContext/service/personal.js";
+import { fetchPersonals } from "@/securityContext/service/personal.service.js";
 
 export default {
   name: 'App',

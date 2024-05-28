@@ -1,89 +1,87 @@
-<script>
-import axios from 'axios';
-import Rating from 'primevue/rating';
-
-export default {
-  components: {
-    Rating
-  },
-  data() {
-    return {
-      products: [],
-    };
-  },
-  created() {
-    this.fetchProducts();
-  },
-  methods: {
-    async fetchProducts() {
-      try {
-        const response = await axios.get('http://localhost:3000/products');
-        this.products = response.data;
-      } catch (error) {
-        console.error('Failed to fetch products:', error);
-      }
-    }
-  }
-}
-</script>
-
 <template>
-  <div class="products-container">
+  <div id="app">
+    <h1 class="title">Dispositivos de seguridad</h1>
+
     <div class="cards-container">
-      <div v-for="product in products" :key="product.id" class="product-card">
-        <img :src="product.imagen" alt="Product Image" class="product-image"/>
-        <div class="card-content">
-          <h2>{{ product.modelo }}</h2>
-          <p>{{ product.tipo }}</p>
-          <div class="rating-price">
-            <Rating v-model="product.rating" :cancel="false" estatic ></Rating>
-            <span class="price">${{ product.precio.toFixed(2) }}</span>
-          </div>
-        </div>
-      </div>
+      <safety-device-card-component
+          v-for="device in devices"
+          :key="device.nombre"
+          :device="device"
+      />
     </div>
   </div>
 </template>
 
-<style scoped>
-h1 {
+<script>
+import safetyDeviceCardComponent from "@/securityContext/components/SafetyDeviceCard-component/SafetyDeviceCard.component.vue";
+import { fetchSafetyDevices } from "@/securityContext/service/safetydevice.service.js";
+
+export default {
+  name: 'App',
+  components: {
+    safetyDeviceCardComponent
+  },
+
+  data() {
+    return {
+      devices: [],
+    };
+  },
+
+  async mounted() {
+    this.devices = await fetchSafetyDevices();
+  },
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
+  color: #2c3e50;
+  padding: 20px;
 }
 
-.products-container {
-  padding: 20px;
+.title {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 20px;
 }
 
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.product-card {
+.device-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
   width: 300px;
-  margin: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.product-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+.device-card h3 {
+  margin-top: 0;
+  color: #333;
 }
 
-.card-content {
+.device-card p {
+  color: #666;
+}
+
+.device-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
   padding: 10px;
+  cursor: pointer;
 }
 
-.rating-price {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.price {
-  font-size: 1.2rem;
-  font-weight: bold;
+.device-card button:hover {
+  background-color: #45a049;
 }
 </style>
