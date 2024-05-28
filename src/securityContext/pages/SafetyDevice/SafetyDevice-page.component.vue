@@ -1,4 +1,5 @@
 <template>
+  <navbar-component />
   <div id="app">
     <h1 class="title">Dispositivos de seguridad</h1>
 
@@ -24,12 +25,14 @@
 
 <script>
 import safetyDeviceCardComponent from "@/securityContext/components/SafetyDeviceCard-component/SafetyDeviceCard.component.vue";
+import navbarComponent from "@/public/components/navbar/navbar.component.vue";
 import { fetchSafetyDevices } from "@/securityContext/service/safetydevice.service.js";
 
 export default {
   name: 'App',
   components: {
-    safetyDeviceCardComponent
+    safetyDeviceCardComponent,
+    navbarComponent
   },
   data() {
     return {

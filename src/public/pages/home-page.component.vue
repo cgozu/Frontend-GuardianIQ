@@ -1,5 +1,5 @@
 <template>
-
+<navbar-component />
   <div>
 
     <div class="card">
@@ -20,11 +20,13 @@
 
 <script>
 import footerComponent from "@/public/components/footer/footer.component.vue";
-import toolbarComponent from "@/public/components/toolbar/Toolbar.component.vue";
+import navbarComponent from "@/public/components/navbar/navbar.component.vue";
+// import toolbarComponent from "@/public/components/toolbar/Toolbar.component.vue";
 export default {
   components: {
     footerComponent,
-    toolbarComponent
+   // toolbarComponent
+    navbarComponent
   },
   name: 'Home',
   data() {

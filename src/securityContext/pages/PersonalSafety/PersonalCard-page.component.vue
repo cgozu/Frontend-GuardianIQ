@@ -1,4 +1,5 @@
 <template>
+  <navbar-component />
   <div id="app">
     <h1 class="title">Seguridad presencial</h1>
     <filter-component @filter="applyFilters" />
@@ -18,13 +19,15 @@
 <script>
 import PersonalCard from '/src/securityContext/components/PersonalSafetyCard/PersonalCard.component.vue';
 import filterComponent from "@/securityContext/components/filter/filter.component.vue";
+import navbarComponent from "@/public/components/navbar/navbar.component.vue";
 import { fetchPersonals } from "@/securityContext/service/personal.service.js";
 
 export default {
   name: 'App',
   components: {
     PersonalCard,
-    filterComponent
+    filterComponent,
+    navbarComponent
   },
 
   data() {
