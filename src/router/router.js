@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import safetyDevicePageComponent from "@/securityContext/pages/SafetyDevice/SafetyDevice-page.component.vue";
 import loginContentComponent from "@/public/components/Login/login-content.component.vue";
-import signupContentComponent from "@/public/components/signUp/signUp.component.vue";
+import signUpComponent from "@/public/components/signUp/signUp.component.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -11,7 +11,8 @@ const router = createRouter({
     {path:'/PersonalCardPage', component:()=>import('../securityContext/pages/PersonalCard/PersonalCard-page.component.vue')},
     {path:'/SafetyDevicePage',component:safetyDevicePageComponent},
     {path: '/login', component: loginContentComponent},
-    {path: '/register', component: signupContentComponent}
+    {path: '/signup', component: signUpComponent}
+
   ]
 })
 

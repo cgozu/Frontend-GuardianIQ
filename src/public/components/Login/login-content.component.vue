@@ -34,6 +34,7 @@
 <script>
 import auth from "@/logic/auth";
 export default {
+
   data: () => ({
     email: "",
     password: "",
@@ -43,11 +44,16 @@ export default {
     async login() {
       try {
         await auth.login(this.email, this.password);
+        const user = {
+          email: this.email
+        };
+        auth.setUserLogged(user);
         this.$router.push("/");
       } catch (error) {
+        console.log(error);
         this.error = true;
       }
-    },
+    }
   },
 };
 </script>
