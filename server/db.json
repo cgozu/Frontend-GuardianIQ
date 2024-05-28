@@ -8,8 +8,8 @@
       "imagen": "https://m.media-amazon.com/images/I/51lgGp0p-zL._AC_UF894,1000_QL80_.jpg",
       "collectionId": 1,
       "rating": 5,
-      "precio": 100.00,
-      "descripción": ""
+      "precio": 100,
+      "descripción": "Cámara de seguridad HD con visión nocturna, acceso remoto en tiempo real y detección de movimiento"
     },
     {
       "id": 2,
@@ -19,8 +19,8 @@
       "imagen": "https://cdn.tvc.mx/media/822837/AJAX-MotionProtect-PlusW-Detector-de-movimiento-inal%C3%A1mbrico-Microondas-e-Infrarrojo.-Color-Negro-black-tvc-8.png",
       "collectionId": 2,
       "rating": 4.8,
-      "precio": 100.00,
-      "descripción": ""
+      "precio": 100,
+      "descripción": "Sensor de largo alcance, inmune a las corrientes de aire y emite ondas continuas de ultrasonido"
     },
     {
       "id": 3,
@@ -30,8 +30,8 @@
       "imagen": "https://i.ebayimg.com/images/g/njkAAOSwtqtlG4~7/s-l500.jpg",
       "collectionId": 2,
       "rating": 4.9,
-      "precio": 100.00,
-      "descripción": ""
+      "precio": 100,
+      "descripción": "Sensor con mayor sensibilidad de encendido, con activación al movimiento y tiene un transmisor activo"
     },
     {
       "id": 4,
@@ -41,8 +41,8 @@
       "imagen": "https://m.media-amazon.com/images/I/51K8f+k95JL._AC_UF894,1000_QL80_.jpg",
       "collectionId": 3,
       "rating": 4.9,
-      "precio": 100.00,
-      "descripción": ""
+      "precio": 100,
+      "descripción": "Alarma inteligente con cámara de seguridad, videoportero con Wi-Fi y alarma IR"
     },
     {
       "id": 5,
@@ -52,393 +52,393 @@
       "imagen": "https://cdn.adiglobaldistribution.co.uk/pim/300X300/10003/1072061414_1.jpg",
       "collectionId": 1,
       "rating": 4.9,
-      "precio": 100.00,
-      "descripción": ""
+      "precio": 100,
+      "descripción": "Cámara con alta definición con visión nocturna y micrófono incluido"
     },
     {
       "id": 6,
       "tipo": "Camara",
       "marca": "Dahua",
       "modelo": "IPC-HDW5831R-ZE",
-      "imagen": "https://m.media-amazon.com/images/I/61GJ1BsO5YL._AC_UY879_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_621584-MLA51088663281_082022-F.jpg",
       "collectionId": 1,
       "rating": 4.7,
-      "precio": 120.00,
-      "descripción": ""
+      "precio": 120,
+      "descripción": "Cámara con definición 5MP, micrófono incluido, sensor de movimiento incluido y con visión nocturna"
     },
     {
       "id": 7,
       "tipo": "Camara",
       "marca": "Arlo",
       "modelo": "Pro 3",
-      "imagen": "https://m.media-amazon.com/images/I/81dRaWwnJGL._AC_SL1500_.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/61l360cMXtL._AC_SL1500_.jpg",
       "collectionId": 1,
       "rating": 4.6,
-      "precio": 150.00,
-      "descripción": ""
+      "precio": 150,
+      "descripción": "Cámara que captura detalles en video HD, conexión inalámbrica a una red Wi-Fi y resistente a la intemperie"
     },
     {
       "id": 8,
       "tipo": "Camara",
       "marca": "Ring",
       "modelo": "Spotlight Cam",
-      "imagen": "https://m.media-amazon.com/images/I/71+1-D4AdEL._SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_735455-MLU70743109549_072023-F.jpg",
       "collectionId": 1,
       "rating": 4.5,
-      "precio": 130.00,
-      "descripción": ""
+      "precio": 130,
+      "descripción": "Cámara que captura detalles en video 1080p, audio bidireccional e incluye visión nocturna"
     },
     {
       "id": 9,
       "tipo": "Camara",
       "marca": "Nest",
       "modelo": "Cam IQ Outdoor",
-      "imagen": "https://m.media-amazon.com/images/I/61r9GIdEW1L._SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_782090-MPE52661366409_112022-F.jpg",
       "collectionId": 1,
       "rating": 4.8,
-      "precio": 200.00,
-      "descripción": ""
+      "precio": 200,
+      "descripción": "Cámara marca Google con protocolo de conectividad Wi-Fi y permite una vigilancia en HD 1080p día y noche"
     },
     {
       "id": 10,
       "tipo": "Camara",
       "marca": "Swann",
       "modelo": "SWPRO-1080MSB",
-      "imagen": "https://m.media-amazon.com/images/I/71H+Gm5bfbL._SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_917572-MPE69929374348_062023-F.jpg",
       "collectionId": 1,
       "rating": 4.4,
-      "precio": 90.00,
-      "descripción": ""
+      "precio": 90,
+      "descripción": "Cámara de seguridad inalámbrica con una luz de advertencia del sensor y envio de notificaciones"
     },
     {
       "id": 11,
       "tipo": "Camara",
       "marca": "Reolink",
       "modelo": "Argus 2",
-      "imagen": "https://m.media-amazon.com/images/I/61R5hVa0VwL._AC_SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_982248-MLU70822885843_082023-F.jpg",
       "collectionId": 1,
       "rating": 4.6,
-      "precio": 110.00,
-      "descripción": ""
+      "precio": 110,
+      "descripción": "Cámara con resolución 3MP, visión nocturna incluida y conexión inalámbrica"
     },
     {
       "id": 12,
       "tipo": "Sensor",
       "marca": "Honeywell",
       "modelo": "5800PIR-RES",
-      "imagen": "https://m.media-amazon.com/images/I/31fN5MDk3DL.jpg",
+      "imagen": "https://i.ebayimg.com/images/g/wKsAAOSw2ZJmEBMa/s-l1600.jpg",
       "collectionId": 2,
       "rating": 4.7,
-      "precio": 60.00,
-      "descripción": ""
+      "precio": 60,
+      "descripción": "Sensor de movimiento con doble tecnología óptica, manipuladores de cubierta y pared, e inmunidad seleccionable de mascotas"
     },
     {
       "id": 13,
       "tipo": "Sensor",
       "marca": "Ecolink",
       "modelo": "Z-Wave Plus",
-      "imagen": "https://m.media-amazon.com/images/I/41r2E8H6q+L.jpg",
+      "imagen": "https://149367268.v2.pressablecdn.com/wp-content/uploads/2014/09/EcoLink-DWZWAVE2-ECO_1.jpg",
       "collectionId": 2,
       "rating": 4.6,
-      "precio": 50.00,
-      "descripción": ""
+      "precio": 50,
+      "descripción": "Sensor con protección contra manipulación, con una sola zona de protección y duración de batería de hasta 3 años"
     },
     {
       "id": 14,
       "tipo": "Sensor",
       "marca": "First Alert",
       "modelo": "ZCOMBO",
-      "imagen": "https://m.media-amazon.com/images/I/61upkw2iBJL._SL1500_.jpg",
+      "imagen": "https://digitalassets.resideo.com/damroot/RDEDesktop/1/SA3210_Front_900x900px.jpg",
       "collectionId": 2,
       "rating": 4.8,
-      "precio": 40.00,
-      "descripción": ""
+      "precio": 40,
+      "descripción": "Sensor con detector de humo incluido y una batería de litio que puede durar hasta 10 años"
     },
     {
       "id": 15,
       "tipo": "Sensor",
       "marca": "Fibaro",
       "modelo": "FGMS-001",
-      "imagen": "https://m.media-amazon.com/images/I/41qjP5uCg3L.jpg",
+      "imagen": "https://domoticasistemas.com/tienda/1379-large_default/sensor-de-movimiento-temperatura-y-luminosidad-de-fibaro-z-wave-plus.jpg",
       "collectionId": 2,
       "rating": 4.7,
-      "precio": 55.00,
-      "descripción": ""
+      "precio": 55,
+      "descripción": "Multisensor capaz de detectar movimiento, temperatura e intensidad lumínica, además cuenta con acelerómetro"
     },
     {
       "id": 16,
       "tipo": "Sensor",
       "marca": "Aeotec",
       "modelo": "Multisensor 6",
-      "imagen": "https://m.media-amazon.com/images/I/61HDabGBucL._SL1500_.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/611mW6da12L._SX522_.jpg",
       "collectionId": 2,
       "rating": 4.5,
-      "precio": 70.00,
-      "descripción": ""
+      "precio": 70,
+      "descripción": "Multisensor capaz de detectar movimiento, humedad, temperatura, luz lux, UV y sensor de vibración"
     },
     {
       "id": 17,
       "tipo": "Sensor",
       "marca": "Samsung SmartThings",
       "modelo": "Motion Sensor",
-      "imagen": "https://m.media-amazon.com/images/I/41jq6L6yX+L.jpg",
+      "imagen": "https://image-us.samsung.com/SamsungUS/pim/migration/smart-home/smartthings/sensors/f-ss-mult-001/Pdpdefault-f-ss-mult-001-600x600-C1-052016.jpg?$product-details-jpg$",
       "collectionId": 2,
       "rating": 4.6,
-      "precio": 30.00,
-      "descripción": ""
+      "precio": 30,
+      "descripción": "Sensor inteligente para monitoreo en tiempo real, compatible con SmartThings y alertas instantáneas"
     },
     {
       "id": 18,
       "tipo": "Sensor",
       "marca": "Ring",
       "modelo": "Alarm Motion Detector",
-      "imagen": "https://m.media-amazon.com/images/I/31Tk7Tt8goL.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/41NXzyMnraL._SX522_.jpg",
       "collectionId": 2,
       "rating": 4.5,
-      "precio": 25.00,
-      "descripción": ""
+      "precio": 25,
+      "descripción": "Sensor de detección de movimiento que envía notificaciones a tu celular, con una fácil instalación"
     },
     {
       "id": 19,
       "tipo": "Sensor",
       "marca": "Kangaroo",
       "modelo": "Motion Sensor",
-      "imagen": "https://m.media-amazon.com/images/I/61M9GysUQaL._SL1500_.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/51zeCpgth8L._AC_SX679_.jpg",
       "collectionId": 2,
       "rating": 4.4,
-      "precio": 20.00,
-      "descripción": ""
+      "precio": 20,
+      "descripción": "Sensor con tecnología de rechazo de mascota para evitar falsas alarmas y vigilancia profesional"
     },
     {
       "id": 20,
       "tipo": "Sensor",
       "marca": "SimpliSafe",
       "modelo": "Entry Sensor",
-      "imagen": "https://m.media-amazon.com/images/I/41nqz9jDQUL.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_841024-MPE53228816227_012023-F.jpg",
       "collectionId": 2,
       "rating": 4.7,
-      "precio": 15.00,
-      "descripción": ""
+      "precio": 15,
+      "descripción": "Sensor con tecnología de conectividad Wi-Fi, 9 canales y grabación en la nube las 24 horas con despacho de la policía"
     },
     {
       "id": 21,
       "tipo": "Sensor",
-      "marca": "Wyze",
+      "marca": "Wyz",
       "modelo": "Contact Sensor",
-      "imagen": "https://m.media-amazon.com/images/I/41m3I8hXvlL.jpg",
+      "imagen": "https://www.assets.signify.com/is/image/Signify/WIZ_Wireless_Sensor-SPP?wid=1500&hei=1125&qlt=82",
       "collectionId": 2,
       "rating": 4.6,
-      "precio": 10.00,
-      "descripción": ""
+      "precio": 10,
+      "descripción": "Sensor de movimiento con automatización de luces, con una fácil configuración y con una batería incluida"
     },
     {
       "id": 22,
       "tipo": "Alarma",
       "marca": "Yale",
       "modelo": "Smart Home Alarm",
-      "imagen": "https://m.media-amazon.com/images/I/61ddL4AqLJL._SL1500_.jpg",
+      "imagen": "https://webshop.yale.pe/cdn/shop/products/YalePE-Productos_2_83b6cc14-829a-4a3a-b458-66160aa85a7b.png?v=1623350961&width=600",
       "collectionId": 3,
       "rating": 4.6,
-      "precio": 150.00,
-      "descripción": ""
+      "precio": 150,
+      "descripción": "Alarma con un volumen de 100 db que permite desactivarse con una clave, además tiene garantía de 1 año"
     },
     {
       "id": 23,
       "tipo": "Alarma",
       "marca": "Ring",
       "modelo": "Alarm Kit",
-      "imagen": "https://m.media-amazon.com/images/I/61eRv7J24+L._SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_727602-MLU73068869959_112023-F.jpg",
       "collectionId": 3,
       "rating": 4.8,
-      "precio": 200.00,
-      "descripción": ""
+      "precio": 200,
+      "descripción": "Kit de alarma de 8 piezas (estación base, teclado, 4 sensores de contacto, sensor de movimiento y extensor de rango)"
     },
     {
       "id": 24,
       "tipo": "Alarma",
       "marca": "SimpliSafe",
       "modelo": "SS3-01",
-      "imagen": "https://m.media-amazon.com/images/I/61xqn05ybaL._SL1500_.jpg",
+      "imagen": "https://www.the-ambient.com/wp-content/uploads/sites/2/2024/01/simplisafe-alarm-review-keypad-2-1605156993-7EBf-column-width-inline.jpeg",
       "collectionId": 3,
       "rating": 4.7,
-      "precio": 180.00,
-      "descripción": ""
+      "precio": 180,
+      "descripción": "Alarma de seguridad inalámbrica con detección de intrusos, notificaciones instantáneas y fácil instalación"
     },
     {
       "id": 25,
       "tipo": "Alarma",
       "marca": "ADT",
       "modelo": "Command",
-      "imagen": "https://m.media-amazon.com/images/I/41ZOd+03x+L.jpg",
+      "imagen": "https://i.ebayimg.com/images/g/tuMAAOSwmnllc-PQ/s-l1600.jpg",
       "collectionId": 3,
       "rating": 4.5,
-      "precio": 220.00,
-      "descripción": ""
+      "precio": 220,
+      "descripción": "Alarma inalámbrica, detección de intrusos y control remoto"
     },
     {
       "id": 26,
       "tipo": "Alarma",
       "marca": "Blue by ADT",
       "modelo": "Home Security System",
-      "imagen": "https://m.media-amazon.com/images/I/51Vsl0vBvJL._SL1500_.jpg",
+      "imagen": "https://support.bluebyadt.com/servlet/rtaImage?eid=ka56f000000Xb8y&feoid=00NG0000009g7sS&refid=0EM6f0000040o22",
       "collectionId": 3,
       "rating": 4.6,
-      "precio": 160.00,
-      "descripción": ""
+      "precio": 160,
+      "descripción": "Alarma que incluye un teclado con una función de pánico y escucha las alarmas de sus detectores de humo"
     },
     {
       "id": 27,
       "tipo": "Alarma",
       "marca": "Cove",
       "modelo": "Touch Alarm",
-      "imagen": "https://m.media-amazon.com/images/I/71RtNxlExoL._AC_SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_605371-MLM51302801106_082022-F.jpg",
       "collectionId": 3,
       "rating": 4.7,
-      "precio": 140.00,
-      "descripción": ""
+      "precio": 140,
+      "descripción": "Alarma con fácil instalación, alertas en tiempo real y monitoreo de protección las 24 horas"
     },
     {
       "id": 28,
       "tipo": "Alarma",
       "marca": "Abode",
       "modelo": "iota All-In-One",
-      "imagen": "https://m.media-amazon.com/images/I/61J+vvEV+3L._AC_SL1500_.jpg",
+      "imagen": "https://goabode.com/wp-content/uploads/2024/01/img_product_page_hero_security_hub@2x-1600x1320.webp",
       "collectionId": 3,
       "rating": 4.6,
-      "precio": 170.00,
-      "descripción": ""
+      "precio": 170,
+      "descripción": "Alarma que incluye un centro de seguridad, un mini sensor de puerta/ventana y un llavero"
     },
     {
       "id": 29,
       "tipo": "Alarma",
       "marca": "Fortress",
       "modelo": "S03 WiFi",
-      "imagen": "https://m.media-amazon.com/images/I/61gG+03x6UL._SL1000_.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/51OTl-fPIzL._AC_SX679_.jpg",
       "collectionId": 3,
       "rating": 4.5,
-      "precio": 130.00,
-      "descripción": ""
+      "precio": 130,
+      "descripción": "Alarma inalámbrica con detector de movimiento independiente y control de la alarma con el mando a distancia"
     },
     {
       "id": 30,
       "tipo": "Alarma",
       "marca": "Viper",
       "modelo": "5706V",
-      "imagen": "https://m.media-amazon.com/images/I/51WMT+kMJ8L._SL1000_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_896538-MPE54203569025_032023-F.jpg",
       "collectionId": 3,
       "rating": 4.8,
-      "precio": 210.00,
-      "descripción": ""
+      "precio": 210,
+      "descripción": "Alarma para con 2 controles compactos impermeables de 2 botones e incluye 2 llaves"
     },
     {
       "id": 31,
       "tipo": "Alarma",
       "marca": "SkylinkNet",
       "modelo": "SK-250",
-      "imagen": "https://m.media-amazon.com/images/I/41csCBq+jtL.jpg",
+      "imagen": "http://mdintec.com/presta/56-large_default/sistema-de-seguridad-skylink-net.jpg",
       "collectionId": 3,
       "rating": 4.4,
-      "precio": 110.00,
-      "descripción": ""
+      "precio": 110,
+      "descripción": "Alarma con una central de control con conexión a internet, un sensor de ventana o puerta y cable ethernet"
     },
     {
       "id": 32,
       "tipo": "Otros",
       "marca": "August",
       "modelo": "Smart Lock Pro",
-      "imagen": "https://m.media-amazon.com/images/I/41Fk-7f1XPL.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_718947-MLU69078910309_042023-F.jpg",
       "collectionId": 4,
       "rating": 4.6,
-      "precio": 150.00,
-      "descripción": ""
+      "precio": 150,
+      "descripción": "Cerradura digital inteligente de 5 modos con indicador de bateria baja"
     },
     {
       "id": 33,
       "tipo": "Otros",
       "marca": "Kwikset",
       "modelo": "Kevo",
-      "imagen": "https://m.media-amazon.com/images/I/61+DDWQ0wZL._SL1500_.jpg",
+      "imagen": "https://admincontent.bimobject.com/public/productimages/3ff35502-7f34-43b5-a5c4-74dc8f9dac9b/054b2797-0685-40c5-8825-74919befcadc/316983?width=675&height=675&compress=true",
       "collectionId": 4,
       "rating": 4.5,
-      "precio": 140.00,
-      "descripción": ""
+      "precio": 140,
+      "descripción": "Cerradura inteligente tradicional con tacto para abrir y con tecnología de bloqueo bluetooth"
     },
     {
       "id": 34,
       "tipo": "Otros",
       "marca": "Schlage",
       "modelo": "Encode",
-      "imagen": "https://m.media-amazon.com/images/I/61zJcDpgzQL._SL1500_.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/61n7mD-vk-L._AC_SX679_.jpg",
       "collectionId": 4,
       "rating": 4.7,
-      "precio": 180.00,
-      "descripción": ""
+      "precio": 180,
+      "descripción": "Cerradura inteligente con llave Apple Home, con compatibilidad Wi-Fi y bloqueo y desbloqueo desde donde estes"
     },
     {
       "id": 35,
       "tipo": "Otros",
       "marca": "Yale",
       "modelo": "Assure Lock SL",
-      "imagen": "https://m.media-amazon.com/images/I/51Pb6qzSbhL._SL1500_.jpg",
+      "imagen": "https://promart.vteximg.com.br/arquivos/ids/7223682-1000-1000/149306.jpg?v=638234889181900000",
       "collectionId": 4,
       "rating": 4.6,
-      "precio": 160.00,
-      "descripción": ""
+      "precio": 160,
+      "descripción": "Cerradura digital para puerta con pantalla táctil, alarma de intrusión e indicador de batería"
     },
     {
       "id": 36,
       "tipo": "Otros",
       "marca": "Ultraloq",
       "modelo": "UL3 BT",
-      "imagen": "https://m.media-amazon.com/images/I/51C6+ITwBHL._SL1000_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_647311-MPE53228816460_012023-F.jpg",
       "collectionId": 4,
       "rating": 4.5,
-      "precio": 130.00,
-      "descripción": ""
+      "precio": 130,
+      "descripción": "Cerradura inteligente con huella dactilar, bloqueo inteligente y conexión Wi-Fi"
     },
     {
       "id": 37,
       "tipo": "Otros",
       "marca": "Eufy",
       "modelo": "Smart Lock Touch",
-      "imagen": "https://m.media-amazon.com/images/I/71CzR7yP7DL._SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_708607-MPE73310762417_122023-F.jpg",
       "collectionId": 4,
       "rating": 4.6,
-      "precio": 140.00,
-      "descripción": ""
+      "precio": 140,
+      "descripción": "Cerradura digital con 8 baterías que duran alrededor de 8 meses, usa huellas dactilares, desbloqueo con un toque"
     },
     {
       "id": 38,
       "tipo": "Otros",
       "marca": "SimpliSafe",
       "modelo": "Smart Lock",
-      "imagen": "https://m.media-amazon.com/images/I/41csOIlDNGL.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/71cSiZ9cvqL._AC_SX679_.jpg",
       "collectionId": 4,
       "rating": 4.7,
-      "precio": 170.00,
-      "descripción": ""
+      "precio": 170,
+      "descripción": "Cerradura inteligente con bloqueo automático, alertas de seguridad y notificación del candado"
     },
     {
       "id": 39,
       "tipo": "Otros",
       "marca": "Nest",
       "modelo": "X Yale Lock",
-      "imagen": "https://m.media-amazon.com/images/I/71FvckTdxPL._SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_758345-MPE53228817245_012023-F.jpg",
       "collectionId": 4,
       "rating": 4.8,
-      "precio": 200.00,
-      "descripción": ""
+      "precio": 200,
+      "descripción": "Cerrojo de seguridad con pantalla táctil, conexión Wi-Fi y desbloqueo por celular"
     },
     {
       "id": 40,
       "tipo": "Otros",
       "marca": "Level",
       "modelo": "Lock",
-      "imagen": "https://m.media-amazon.com/images/I/61-L4Bd4lyL._SL1500_.jpg",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_894434-MPE69761708794_062023-F.jpg",
       "collectionId": 4,
       "rating": 4.5,
-      "precio": 180.00,
-      "descripción": ""
+      "precio": 180,
+      "descripción": "Cerradura inteligente, entrada sin llave y acceso mediante smartphone"
     }
   ],
   "SegurityTeams": [
@@ -457,7 +457,7 @@
       "distrito": "San Isidro",
       "edad": 25,
       "sexo": "Femenino",
-      "experiencia": 3 ,
+      "experiencia": 3,
       "disponibilidad": "Medio tiempo",
       "contrato": "Temporal",
       "foto": "https://media.istockphoto.com/id/926718862/es/foto/polic%C3%ADa-y-socio-junto-a-la-patrulla.jpg?s=612x612&w=0&k=20&c=zJiGuWUK-c7iLPrZMZAf4OVZPeZtGWMQ17nmwjBPcfk="
@@ -497,7 +497,7 @@
       "distrito": "Barranco",
       "edad": 27,
       "sexo": "Femenino",
-      "experiencia": 4 ,
+      "experiencia": 4,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://static.wixstatic.com/media/24e562_f4781d8a948c4a0c819288df2c12c5af~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/24e562_f4781d8a948c4a0c819288df2c12c5af~mv2.jpg"
@@ -517,7 +517,7 @@
       "distrito": "San Isidro",
       "edad": 29,
       "sexo": "Masculino",
-      "experiencia": 8 ,
+      "experiencia": 8,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://img.freepik.com/fotos-premium/guardia-seguridad-masculino-usando-walkie-talkie_1016675-789.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1705104000&semt=sph"
@@ -527,7 +527,7 @@
       "distrito": "Miraflores",
       "edad": 31,
       "sexo": "Femenino",
-      "experiencia":  5,
+      "experiencia": 5,
       "disponibilidad": "Medio tiempo",
       "contrato": "Temporal",
       "foto": "https://elperuano.pe/fotografia/thumbnail/2023/03/09/000239032M.jpg"
@@ -547,7 +547,7 @@
       "distrito": "San Borja",
       "edad": 26,
       "sexo": "Femenino",
-      "experiencia": 3 ,
+      "experiencia": 3,
       "disponibilidad": "Medio tiempo",
       "contrato": "Temporal",
       "foto": "https://st3.depositphotos.com/1177973/14616/i/450/depositphotos_146166213-stock-photo-beautiful-security-guard-on-white.jpg"
@@ -567,7 +567,7 @@
       "distrito": "Ate",
       "edad": 30,
       "sexo": "Femenino",
-      "experiencia": 7 ,
+      "experiencia": 7,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://st4.depositphotos.com/16122460/30968/i/450/depositphotos_309681142-stock-photo-female-security-guard-in-uniform.jpg"
@@ -577,7 +577,7 @@
       "distrito": "Los Olivos",
       "edad": 54,
       "sexo": "Masculino",
-      "experiencia": 19 ,
+      "experiencia": 19,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://media.gettyimages.com/id/1263019949/es/foto/guardia-de-seguridad-trabajando-en-una-comunidad-cerrada-y-hablando-en-su-walkie-talkie.jpg?s=612x612&w=0&k=20&c=I07M14YGeNYrSSwehLQzYQD9YFbIs5InNChKLHOgk3o="
@@ -587,7 +587,7 @@
       "distrito": "San Martin de Porres",
       "edad": 26,
       "sexo": "Femenino",
-      "experiencia": 4 ,
+      "experiencia": 4,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://image.made-in-china.com/44f3j00EtmQZizFJupk/2016-Nuevo-dise-o-de-seguridad-baratos-uniformes-para-las-mujeres-de-alta-calidad-uniforme-ceremonial-militar-personalizar-el-uniforme-del-personal-de-guardia.webp"
@@ -597,7 +597,7 @@
       "distrito": "San Miguel",
       "edad": 32,
       "sexo": "Masculino",
-      "experiencia": 8 ,
+      "experiencia": 8,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://media.gettyimages.com/id/1263019949/es/foto/guardia-de-seguridad-trabajando-en-una-comunidad-cerrada-y-hablando-en-su-walkie-talkie.jpg?s=612x612&w=0&k=20&c=I07M14YGeNYrSSwehLQzYQD9YFbIs5InNChKLHOgk3o="
@@ -607,7 +607,7 @@
       "distrito": "San Borja",
       "edad": 29,
       "sexo": "Femenino",
-      "experiencia": 6 ,
+      "experiencia": 6,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://image.made-in-china.com/44f3j00EtmQZizFJupk/2016-Nuevo-dise-o-de-seguridad-baratos-uniformes-para-las-mujeres-de-alta-calidad-uniforme-ceremonial-militar-personalizar-el-uniforme-del-personal-de-guardia.webp"
@@ -617,7 +617,7 @@
       "distrito": "San Isidro",
       "edad": 35,
       "sexo": "Masculino",
-      "experiencia": 10 ,
+      "experiencia": 10,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://media.gettyimages.com/id/157313264/es/foto/guardia-de-seguridad.jpg?s=612x612&w=0&k=20&c=EscBHLEtooPuDzI5_e7K5T8ejT3r84qtjtFvoahUva8="
@@ -627,17 +627,149 @@
       "distrito": "Miraflores",
       " edad": 30,
       "sexo": "Femenino",
-      "experiencia": 5 ,
+      "experiencia": 5,
       "disponibilidad": "Tiempo completo",
       "contrato": "Indefinido",
       "foto": "https://images.unsplash.com/photo-1554579780-381ea7224ddd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
-
+  ],
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/men/1.jpg",
+      "role": "Director"
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "jane@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/women/1.jpg",
+      "role": "Team"
+    },
+    {
+      "id": "3",
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "email": "bob@random.com",
+      "role": "Director",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      "id": "4",
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/women/2.jpg",
+      "role": "Team"
+    },
+    {
+      "id": "5",
+      "firstName": "Charlie",
+      "lastName": "Brown",
+      "email": "charlie@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/men/3.jpg",
+      "role": "Director"
+    },
+    {
+      "id": "6",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "email": "emily@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/women/3.jpg",
+      "role": "Team"
+    },
+    {
+      "id": "7",
+      "firstName": "David",
+      "lastName": "Miller",
+      "email": "david@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/men/4.jpg",
+      "role": "Director"
+    },
+    {
+      "id": "8",
+      "firstName": "Sophia",
+      "lastName": "Wilson",
+      "email": "sophia@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/women/4.jpg",
+      "role": "Team"
+    },
+    {
+      "id": "9",
+      "firstName": "Daniel",
+      "lastName": "Moore",
+      "email": "daniel@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/men/5.jpg",
+      "role": "Director"
+    },
+    {
+      "id": "10",
+      "firstName": "Olivia",
+      "lastName": "Taylor",
+      "email": "olivia@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/women/5.jpg",
+      "role": "Team"
+    },
+    {
+      "id": "11",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "email": "james@random.com",
+      "password": "password123",
+      "profileImg": "https://randomuser.me/api/portraits/men/6.jpg",
+      "role": "Director"
+    },
+    {
+      "firstName": "1",
+      "lastName": "1",
+      "email": "1@gmail.com",
+      "password": "1",
+      "profileImg": "",
+      "id": "ga1_bTs"
+    },
+    {
+      "firstName": "1",
+      "lastName": "1",
+      "email": "1@gmail.com",
+      "password": "1",
+      "profileImg": "",
+      "id": "vo7NtxT"
+    },
+    {
+      "firstName": "1",
+      "lastName": "1",
+      "email": "1@gmail.com",
+      "password": "1",
+      "profileImg": "",
+      "id": "wWj-a0E"
+    },
+    {
+      "firstName": "1",
+      "lastName": "1",
+      "email": "1@gmail.com",
+      "password": "1",
+      "profileImg": "",
+      "id": "GbpGu3_"
+    }
   ],
   "collections": [
     {
       "id": 1,
-      "title": "Camaras"
+      "title": "Cámaras"
     },
     {
       "id": 2,

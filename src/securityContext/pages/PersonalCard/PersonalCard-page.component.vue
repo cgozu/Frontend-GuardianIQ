@@ -45,7 +45,7 @@ export default {
     }
   },
   async mounted() {
-    this.guards = await fetchPersonals(); // Usa la función fetchPersonals
+    this.guards = await fetchPersonals();
   },
   methods: {
     applyFilters(filters) {
