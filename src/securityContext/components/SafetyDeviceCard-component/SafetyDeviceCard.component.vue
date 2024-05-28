@@ -9,6 +9,7 @@
     <button @click="addToCart(device)">Agregar al carrito</button>
   </div>
 </template>
+
 <script>
 export default {
   props: {

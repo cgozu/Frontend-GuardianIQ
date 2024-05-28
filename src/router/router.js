@@ -3,6 +3,8 @@ import safetyDevicePageComponent from "@/securityContext/pages/SafetyDevice/Safe
 import loginContentComponent from "@/public/components/Login/login-content.component.vue";
 import signUpComponent from "@/public/components/signUp/signUp.component.vue";
 import personalCardPageComponent from "@/securityContext/pages/PersonalSafety/PersonalCard-page.component.vue";
+import shoppingdeviceCard from "@/securityContext/components/SafetyDeviceCard-component/shoppingdeviceCard.vue";
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -12,7 +14,8 @@ const router = createRouter({
     {path:'/PersonalCardPage',component:personalCardPageComponent},
     {path:'/SafetyDevicePage',component:safetyDevicePageComponent},
     {path: '/login', component: loginContentComponent},
-    {path: '/signup', component: signUpComponent}
+    {path: '/signup', component: signUpComponent},
+    {path: '/carrito', component: shoppingdeviceCard}
 
   ]
 })

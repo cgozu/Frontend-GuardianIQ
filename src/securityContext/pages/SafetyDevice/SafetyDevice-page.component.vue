@@ -5,9 +5,19 @@
     <div class="cards-container">
       <safety-device-card-component
           v-for="device in devices"
-          :key="device.nombre"
+          :key="device.id"
           :device="device"
+          @add-to-cart="addToCart"
       />
+    </div>
+
+    <div class="cart-container" v-if="cart.length > 0">
+      <h2>Carrito de compras</h2>
+      <ul>
+        <li v-for="(item, index) in cart" :key="index">
+          {{ item.nombre }} - {{ item.precio }}€
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -21,13 +31,17 @@ export default {
   components: {
     safetyDeviceCardComponent
   },
-
   data() {
     return {
       devices: [],
+      cart: []
     };
   },
-
+  methods: {
+    addToCart(device) {
+      this.cart.push(device);
+    }
+  },
   async mounted() {
     this.devices = await fetchSafetyDevices();
   },
@@ -83,5 +97,26 @@ export default {
 
 .device-card button:hover {
   background-color: #45a049;
+}
+
+.cart-container {
+  margin-top: 20px;
+}
+
+.cart-container h2 {
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.cart-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-container li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  font-size: 1.2em;
 }
 </style>
