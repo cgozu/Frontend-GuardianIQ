@@ -1,78 +1,65 @@
-<script>
-
-export default {
-  name: 'navbar-content',
-  components: {
-
-  },
-
-  data() {
-    return {
-      visible: false,
-    };
-  },
-  mounted() {
-
-  },
-};
-</script>
 <template>
-  <pv-toolbar class="flex justify-content-center items-center toolbar" aria-label="Toolbar content">
-    <template #start>
-      <div class=" flex flex-row gap-7 justify-content-center" aria-label="Main navigation section">
-        <router-link to="/">
-          <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo"/>
-        </router-link>
-        <div class="flex justify-content-center">
-          <div  class=" block lg:hidden card flex justify-content-center" aria-label="toolbar features content">
-            <pv-sidebar v-model:visible="visible" header="Artcollab">
-              <router-link to="/">
-                <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo"/>
-              </router-link>
-              <router-link to="/home">
-                <h2> Home </h2>
-              </router-link>
-              <router-link to="/PersonalCardPage">
-                <h2> PersonalCardPage </h2>
-              </router-link>
-              <router-link to="/SafetyDevicePage">
-                <h2> SafetyDevicePage </h2>
-              </router-link>
-            </pv-sidebar>
-          </div>
-          <div  class=" hidden  text-center lg:flex lg:flex-row text-xs gap-5 align-items-center navbar-links " aria-label="toolbar features content" >
-            <router-link to="/home">
-              <h2> home </h2>
-            </router-link>
-            <router-link to="/PersonalCardPage">
-              <h2> PersonalCardPage </h2>
-            </router-link>
-            <router-link to="/SafetyDevicePage">
-              <h2> SafetyDevicePage </h2>
+  <div>
+    <pv-toast></pv-toast>
+    <pv-toast></pv-toast>
+    <pv-toast></pv-toast>
+    <header>
+      <pv-toolbar class="bg-primary" fixed>
+        <template #start>
+          <pv-button class="p-button-text text-white" icon="pi pi-bars" @click="toggleDrawer" />
+
+          <h3>{{ title }}</h3> <!-- Reemplaza con tu título -->
+        </template>
+        <template #end>
+          <div class="flex-column">
+            <router-link v-for="item in items" :key="item.label" :to="item.to">
+              <pv-button class="p-button-text text-white">{{ item.label }}</pv-button>
             </router-link>
           </div>
-        </div>
-      </div>
-    </template>
-  </pv-toolbar>
+        </template>
+      </pv-toolbar>
+    </header>
+    <pv-sidebar v-model:visible="drawer">
+      <ul>
+        <li v-for="item in items" :key="item.label">
+          <router-link :to="item.to">{{ item.label }}</router-link>
+        </li>
+      </ul>
+    </pv-sidebar>
+    <router-view/>
+  </div>
 </template>
 
-
-
-<style scoped>
-.toolbar{
-  border-radius:0;
+<script>
+export default {
+  name: 'NavbarPersonaliz', // Reemplaza con el nombre de tu componente
+  data() {
+    return {
+      drawer: false,
+      title: 'Your Title', // Reemplaza con tu título
+      items: [
+        { label: 'Label1', to: '/route1' },
+        { label: 'Label2', to: '/route2' },
+        { label: 'Label3', to: '/route3' }
+      ]
+    };
+  },
+  methods: {
+    toggleDrawer() {
+      this.drawer = !this.drawer;
+    }
+  }
 }
-h2:hover{
-  cursor:pointer;
-  color: #00B4CC;
+</script>
+<style>
+.bg-primary {
+  background-color: #007bff;
 }
-h2{
-  color:black;
-  font-size: 1rem;
-  font-weight: bold;
+.text-white {
+  color: #ffffff;
 }
-.navbar-links img {
-  cursor: pointer;
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 </style>

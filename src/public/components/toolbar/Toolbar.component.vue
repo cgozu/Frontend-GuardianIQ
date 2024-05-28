@@ -1,9 +1,11 @@
 <template>
   <div class="container">
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#" @click="navigateToHome">
         <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo"/>
       </a>
+      <pv-button class="p-button-text text-white" icon="pi pi-bars" @click="toggleDrawer" />
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,6 +44,11 @@ export default {
     },
     navigateToLogin() {
       this.$router.push('/login');
+    },
+
+      toggleDrawer() {
+        this.drawer = !this.drawer;
+
     }
   }
 }
