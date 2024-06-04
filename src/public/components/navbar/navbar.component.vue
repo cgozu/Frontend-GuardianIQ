@@ -1,43 +1,37 @@
-
 <template>
   <pv-toast></pv-toast>
   <header>
-    <pv-toolbar class="bg-primary" fixed>
+    <pv-toolbar class="bg-primary text-white fixed toolbar">
       <template #start>
         <pv-button class="p-button-text text-white" icon="pi pi-bars" @click="toggleDrawer" />
-        <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo"/>
-        <h2>GuardianIQ</h2>
-        <h1></h1>
-        <h1></h1>
-        <div class="flex">
-          <router-link v-for="item in items" :key="item.label" :to="item.to">
-            <pv-button class="p-button-text text-white">{{ item.label }}</pv-button>
-          </router-link>
+        <div class="d-none d-md-flex align-items-center">
+          <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo" />
+          <h2 class="ml-2">GuardianIQ</h2>
+          <div class="flex ml-4">
+            <router-link v-for="item in items" :key="item.label" :to="item.to">
+              <pv-button class="p-button-text text-white">{{ item.label }}</pv-button>
+            </router-link>
+          </div>
         </div>
       </template>
     </pv-toolbar>
   </header>
 
   <pv-sidebar v-model:visible="drawer">
-
-    <div>
+    <div class="flex-column">
       <router-link v-for="item in items" :key="item.label" :to="item.to">
-        <pv-button class="p-button-text text-white">
-          {{ item.label }}
-        </pv-button>
+        <pv-button class="p-button-text text-dark">{{ item.label }}</pv-button>
       </router-link>
-      <div class="options">
-        <pv-button class="option" @click="optionClicked('Option 1')">Personal de seguridad</pv-button>
-        <pv-button class="option" @click="optionClicked('Option 2')">Dispositivos de seguridad</pv-button>
-        <!-- Agrega más opciones aquí -->
-      </div>
+
     </div>
   </pv-sidebar>
 
-  <router-view />
+  <main class="main-content">
+    <router-view />
+  </main>
 </template>
-<script>
 
+<script>
 export default {
   data() {
     return {
@@ -70,9 +64,29 @@ export default {
   color: white;
 }
 
+.text-dark {
+  color: #343a40;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
 }
 
 .options {
@@ -82,5 +96,34 @@ export default {
 .option {
   display: block;
   margin: 5px 0;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-md-flex {
+  display: flex !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.toolbar {
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  top: 0;
+  left: 0;
+}
+
+.main-content {
+  margin-top: 60px; /* Adjust based on the height of your toolbar */
+}
+
+@media (min-width: 768px) {
+  .d-md-flex {
+    display: flex !important;
+  }
 }
 </style>
