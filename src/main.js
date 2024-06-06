@@ -43,8 +43,12 @@ import InputNumber      from "primevue/inputnumber";
 import FloatLabel       from "primevue/floatlabel";
 
 import Rating           from "primevue/rating";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 
 const app = createApp(App);
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
 
 
 import Ripple from 'primevue/ripple';

@@ -1,12 +1,12 @@
 <template>
-  <pv-toast></pv-toast>
+
   <header>
-    <pv-toolbar class="bg-primary text-white fixed toolbar">
+    <pv-toolbar class="tooolbarrrr">
       <template #start>
         <pv-button class="p-button-text text-white" icon="pi pi-bars" @click="toggleDrawer" />
         <div class="d-none d-md-flex align-items-center">
           <img src="https://pageguardianiq.vercel.app/img/Glogo.png" width="100" alt="Toolbar image" aria-label="Branding logo" />
-          <h2 class="ml-2">GuardianIQ</h2>
+          <h2 class="titulo">GuardianIQ</h2>
           <div class="flex ml-4">
             <router-link v-for="item in items" :key="item.label" :to="item.to">
               <pv-button class="p-button-text text-white">{{ item.label }}</pv-button>
@@ -56,10 +56,12 @@ export default {
 </script>
 
 <style scoped>
-.bg-primary {
-  background-color: #007bff;
+.tooolbarrrr {
+  background-color: #11315C;
 }
-
+.titulo{
+  color: white;
+}
 .text-white {
   color: white;
 }

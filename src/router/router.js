@@ -5,6 +5,7 @@ import signUpComponent from "@/public/components/signUp/signUp.component.vue";
 import personalCardPageComponent from "@/securityContext/pages/PersonalSafety/PersonalCard-page.component.vue";
 import shoppingdeviceCard from "@/securityContext/components/SafetyDeviceCard-component/shoppingdeviceCard.vue";
 import tutorialManagementComponent from "@/buyContext/pages/tutorial-management.component.vue";
+import orderListPageComponent from "@/securityContext/pages/OrderList/OrderList-page.component.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -17,7 +18,7 @@ const router = createRouter({
     {path: '/signup', component: signUpComponent},
     {path: '/carrito', component: shoppingdeviceCard},
     {patch: '/tutorials',component: tutorialManagementComponent, meta: { title: 'Tutorials' } },
-
+    {path: '/orderList', component: orderListPageComponent}
   ]
 })
 
