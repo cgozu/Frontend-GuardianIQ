@@ -3,7 +3,7 @@
     <img class="device-photo" :src="device.imagen" :alt="`Foto de ${device.marca} ${device.modelo}`" />
     <h2 class="device-name">{{ device.marca }} {{ device.modelo }}</h2>
     <h1 class="device-price">S./{{device.precio}}</h1>
-    <p class="device-description">{{ device.descripción }}</p>
+    <p class="device-description">{{ device.descripcion }}</p>
 
     <button class="device-button" @click="comprar">Comprar</button>
     <button @click="addToCart(device)">Agregar al carrito</button>

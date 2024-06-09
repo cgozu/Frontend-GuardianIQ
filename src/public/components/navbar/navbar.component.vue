@@ -11,6 +11,9 @@
             <router-link v-for="item in items" :key="item.label" :to="item.to">
               <pv-button class="p-button-text text-white">{{ item.label }}</pv-button>
             </router-link>
+
+
+
           </div>
         </div>
       </template>
@@ -23,6 +26,8 @@
         <pv-button class="p-button-text text-dark">{{ item.label }}</pv-button>
       </router-link>
 
+      <button @click="logout" class="logout-button">LogOut</button>
+
     </div>
   </pv-sidebar>
 
@@ -32,6 +37,8 @@
 </template>
 
 <script>
+import { useRouter } from 'vue-router';
+
 export default {
   data() {
     return {
@@ -39,17 +46,26 @@ export default {
       items: [
         { label: 'Home', to: '/home' },
         { label: 'PersonalCardPage', to: '/PersonalCardPage' },
-        { label: 'SafetyDevicePage', to: '/SafetyDevicePage' }
+        { label: 'SafetyDevicePage', to: '/SafetyDevicePage' },
+        {label:   'orderList', to: '/orderList'},
+        {label: 'formSupport', to: '/formSupport'}
       ]
+    };
+  },
+  setup() {
+    const router = useRouter();
+
+    const logout = () => {
+      router.push('/login');
+    };
+
+    return {
+      logout
     };
   },
   methods: {
     toggleDrawer() {
       this.drawer = !this.drawer;
-    },
-    optionClicked(option) {
-      console.log(option);
-      // Aquí puedes agregar la lógica para cuando se hace clic en una opción
     }
   }
 };
@@ -121,6 +137,24 @@ export default {
 
 .main-content {
   margin-top: 60px; /* Adjust based on the height of your toolbar */
+}
+
+ .logout-button {
+   background-color: #f44336; /* Color de fondo rojo */
+   color: white; /* Color de texto blanco */
+   border: none; /* Sin borde */
+   padding: 10px 20px; /* Relleno de 10px arriba y abajo, 20px a los lados */
+   text-align: center; /* Alineación de texto al centro */
+   text-decoration: none; /* Sin decoración de texto */
+   display: inline-block; /* Para que se comporte como un bloque pero se alinee como un elemento en línea */
+   font-size: 16px; /* Tamaño de fuente de 16px */
+   margin: 4px 2px; /* Margen de 4px arriba y abajo, 2px a los lados */
+   cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa por encima */
+   border-radius: 5px; /* Bordes redondeados */
+ }
+
+.logout-button:hover {
+  background-color: #d32f2f;
 }
 
 @media (min-width: 768px) {

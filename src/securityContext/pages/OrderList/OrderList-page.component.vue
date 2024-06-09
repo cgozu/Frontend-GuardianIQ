@@ -1,7 +1,7 @@
 <template>
   <div>
-    <navbar-component />
-    <h1 class="display-4 text-center">Listado de Tareas</h1>
+   <navbar-component/>
+    <h1 class="display-4 text-center">Reservar asesoria de seguridad local </h1>
     <hr />
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
@@ -12,7 +12,7 @@
                   type="text"
                   v-model="tarea"
                   class="form-control form-control-lg"
-                  placeholder="Agregar Tarea "
+                  placeholder="Agregar petición"
               />
               <div class="input-group-append">
                 <button
@@ -28,7 +28,7 @@
               <div
                   v-if="loading"
                   class="spinner-border text-success"
-                  role="status"
+
               >
                 <span class="sr-only">Loading...</span>
               </div>
@@ -67,15 +67,12 @@
     </div>
   </div>
 </template>
-
 <script>
 import axios from "axios";
 import navbarComponent from "@/public/components/navbar/navbar.component.vue";
-
-const URL = "https://backend-tareas-service.azurewebsites.net/api/Tarea/";
+const URL = "http://localhost:5126/api/Tareas/";
 export default {
-  name: "Tarea",
-  components: {navbarComponent},
+  name: "OrderList",
   data() {
     return {
       tarea: "",
@@ -83,13 +80,29 @@ export default {
       loading: false,
     };
   },
+  components:{
+    navbarComponent
+  },
   methods: {
+    obtenerTareas() {
+      this.loading = true;
+      axios
+          .get(URL)
+          .then((response) => {
+            console.log(response);
+            this.listTareas = response.data;
+            this.loading = false;
+          })
+          .catch((error) => {
+            console.error(error);
+            this.loading = false;
+          });
+    },
     agregarTarea() {
       const tarea = {
         nombre: this.tarea,
         estado: false,
       };
-      /*  this.listTareas.push(tarea); */
       this.loading = true;
       axios
           .post(URL, tarea)
@@ -105,7 +118,6 @@ export default {
       this.tarea = "";
     },
     eliminarTarea(id) {
-      /* this.listTareas.splice(index, 1) */
       this.loading = true;
       axios
           .delete(URL + id)
@@ -118,22 +130,6 @@ export default {
             console.log(error);
             this.loading = false;
           });
-    },
-    editarTarea(tarea, id) {
-      /*  this.listTareas[index].estado = !tarea.estado; */
-      this.loading = true;
-      axios.put(URL + id, tarea).then(()=> {
-        this.obtenerTareas();
-        this.loading = false
-      }).catch(() => this.loading = false);
-    },
-    obtenerTareas() {
-      this.loading = true;
-      axios.get(URL).then((response) => {
-        console.log(response);
-        this.listTareas = response.data;
-        this.loading = false;
-      }).catch(() => this.loading = false);
     },
   },
   created: function () {
