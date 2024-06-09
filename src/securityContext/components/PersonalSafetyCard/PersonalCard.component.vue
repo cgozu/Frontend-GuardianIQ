@@ -13,14 +13,13 @@
 </template>
 
 <script>
-
 export default {
   props: {
     personal: Object
   },
   methods: {
     contratar() {
-      alert(`Contratar a ${this.personal.nombre}`);
+      this.$router.push('/payment');
     },
     contactar() {
       alert(`Contactar a ${this.personal.nombre}`);

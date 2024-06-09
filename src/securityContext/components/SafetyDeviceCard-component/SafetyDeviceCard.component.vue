@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     comprar() {
-      alert(`Comprar ${this.device.nombre}`);
+      this.$router.push('/payment');
     },
     addToCart(device) {
       this.$emit('add-to-cart', device);
