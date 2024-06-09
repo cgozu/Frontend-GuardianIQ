@@ -9,6 +9,7 @@ import orderListPageComponent from "@/securityContext/pages/OrderList/OrderList-
 import technicalSupportPageComponent from "@/public/pages/TechnicalSupport-page.component.vue";
 import registerComponent from "@/public/components/Register/register.component.vue";
 import formSupport from "@/public/pages/FormSupport.vue";
+import paymentComponent from "@/public/pages/payment-page.component.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -23,7 +24,7 @@ const router = createRouter({
     {path: '/orderList', component: orderListPageComponent},
     {patch: '/formSupport', component: technicalSupportPageComponent},
     {patch: '/register',component: registerComponent},
-
+    {path: '/payment', component: paymentComponent},
     { path: '/formSupport', component: formSupport}
   ]
 })
